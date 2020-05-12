@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>南昌市</key>
+		<array>
+            <string>东湖区</string>
+            <string>西湖区</string>
+            <string>青云谱区</string>
+            <string>湾里区</string>
+            <string>青山湖区</string>
+            <string>南昌县</string>
+            <string>新建县</string>
+            <string>安义县</string>
+            <string>进贤县</string>
+        </array>
+	</dict>
+	<dict>
+        <key>宜春市</key>
+        <array>
+            <string>袁州区</string>
+            <string>奉新县</string>
+            <string>万载县</string>
+            <string>上高县</string>
+            <string>宜丰县</string>
+            <string>静安县</string>
+            <string>铜鼓县</string>
+            <string>丰城市</string>
+            <string>樟树市</string>
+            <string>高安市</string>
+        </array>
+    </dict>
+    <dict>
+        <key>抚州市</key>
+        <array>
+            <string>临川区</string>
+            <string>南城县</string>
+            <string>黎川县</string>
+            <string>南丰县</string>
+            <string>崇仁县</string>
+            <string>乐安县</string>
+            <string>宜黄县</string>
+            <string>金溪县</string>
+            <string>资溪县</string>
+            <string>东乡县</string>
+            <string>广昌县</string>
+        </array>
+    </dict>
+</array>
+</plist>

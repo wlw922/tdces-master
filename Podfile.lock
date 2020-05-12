@@ -1,0 +1,108 @@
+PODS:
+  - AMapFoundation (1.6.3)
+  - AMapLocation (2.6.5):
+    - AMapFoundation (~> 1.6.3)
+  - AMapNavi (7.4.0):
+    - AMapFoundation (~> 1.6.3)
+  - AMapSearch (7.3.0):
+    - AMapFoundation (~> 1.6.3)
+  - Charts (3.5.0):
+    - Charts/Core (= 3.5.0)
+  - Charts/Core (3.5.0)
+  - CRRefresh (1.1.3)
+  - CVCalendar (1.7.0)
+  - FanMenu (0.7.4):
+    - Macaw
+  - HandyJSON (5.0.1)
+  - Kingfisher (5.13.4):
+    - Kingfisher/Core (= 5.13.4)
+  - Kingfisher/Core (5.13.4)
+  - Macaw (0.9.6):
+    - SWXMLHash
+  - PPBadgeViewSwift (3.1.0)
+  - Realm (4.4.1):
+    - Realm/Headers (= 4.4.1)
+  - Realm/Headers (4.4.1)
+  - RealmSwift (4.4.1):
+    - Realm (= 4.4.1)
+  - SCLAlertView (0.8)
+  - SnapKit (5.0.1)
+  - Starscream (4.0.3)
+  - SwiftHTTP (3.0.1)
+  - SwiftyJSON (5.0.0)
+  - SwiftyXMLParser (5.0.0)
+  - SWXMLHash (5.0.1)
+  - WechatOpenSDK (1.8.7)
+
+DEPENDENCIES:
+  - AMapLocation
+  - AMapNavi
+  - AMapSearch
+  - Charts
+  - CRRefresh
+  - CVCalendar
+  - FanMenu
+  - HandyJSON
+  - Kingfisher
+  - PPBadgeViewSwift
+  - RealmSwift
+  - SCLAlertView
+  - SnapKit
+  - Starscream
+  - SwiftHTTP
+  - SwiftyJSON
+  - SwiftyXMLParser
+  - WechatOpenSDK
+
+SPEC REPOS:
+  https://github.com/CocoaPods/specs.git:
+    - AMapFoundation
+    - AMapLocation
+    - AMapNavi
+    - AMapSearch
+    - Charts
+    - CRRefresh
+    - CVCalendar
+    - FanMenu
+    - HandyJSON
+    - Kingfisher
+    - Macaw
+    - PPBadgeViewSwift
+    - Realm
+    - RealmSwift
+    - SCLAlertView
+    - SnapKit
+    - Starscream
+    - SwiftHTTP
+    - SwiftyJSON
+    - SwiftyXMLParser
+    - SWXMLHash
+    - WechatOpenSDK
+
+SPEC CHECKSUMS:
+  AMapFoundation: 9ed923193b357ebb30a073e9fe255d3c24054d5a
+  AMapLocation: c566d448285cd502c1e313063d9e2460bd4d7100
+  AMapNavi: fb36f9052867d33254a9a168b77952d1aa74e965
+  AMapSearch: a048bcca3bf0b8083345070e1f193f814bd8dc01
+  Charts: 40a08591df1f8ad5c223ddedfb1a06da92f24f7c
+  CRRefresh: 1415d4ae06837fa7bb064c44f2e102f3ef517044
+  CVCalendar: 1174c1b43c1a258970e14c1e8b19ef4106c5900b
+  FanMenu: 773836538a63cddcbf0c5bf320727bb47669f7fd
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  Kingfisher: d2279a7abece3c7f25a80cd2b7f363ca5cf3f44c
+  Macaw: 8306d775625ba003beee4186b9533fd7cf284024
+  PPBadgeViewSwift: 18a219a9897f418342c22dd1a54f7b18ac56546b
+  Realm: 4eb04d7487bd43c0581256f40b424eafb711deff
+  RealmSwift: 3eb8924ff7100df5928c7602f71d0fec51e7c9c5
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  Starscream: ef06f0961fff0880bca0604416d61141e4faca67
+  SwiftHTTP: e94f1aa8cde58637dcc0100f6349de31a3337fde
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  SwiftyXMLParser: 5ebb8793192f403fa8cc691045143906122a7a75
+  SWXMLHash: 9cc0c2e4807926c74377724aa8722ee5707a0485
+  WechatOpenSDK: 7cd4d3386fb6ba5595d5fb863e0a3bfd43bc6768
+
+PODFILE CHECKSUM: 05df1c866736ac4aab448151c4e3ecafbd60ee02
+
+COCOAPODS: 1.9.1

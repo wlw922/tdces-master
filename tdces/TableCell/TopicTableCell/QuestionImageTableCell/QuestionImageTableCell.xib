@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="QuestionImageTableCell" rowHeight="128" id="GIn-is-flS" customClass="QuestionImageTableCell" customModule="易安培App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="144"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="GIn-is-flS" id="qVO-Bh-aMg">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="144"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VNj-Ll-DPZ">
+                        <rect key="frame" x="20" y="8" width="374" height="128"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="128" id="gsg-Kp-tua"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="VNj-Ll-DPZ" secondAttribute="trailing" constant="20" id="926-8F-90R"/>
+                    <constraint firstItem="VNj-Ll-DPZ" firstAttribute="centerY" secondItem="qVO-Bh-aMg" secondAttribute="centerY" id="JFt-SQ-lFv"/>
+                    <constraint firstItem="VNj-Ll-DPZ" firstAttribute="top" secondItem="qVO-Bh-aMg" secondAttribute="top" constant="8" id="M1g-5K-VRe"/>
+                    <constraint firstItem="VNj-Ll-DPZ" firstAttribute="centerX" secondItem="qVO-Bh-aMg" secondAttribute="centerX" id="PNH-tb-9AW"/>
+                    <constraint firstItem="VNj-Ll-DPZ" firstAttribute="leading" secondItem="qVO-Bh-aMg" secondAttribute="leading" constant="20" id="W6r-FH-BYZ"/>
+                    <constraint firstAttribute="bottom" secondItem="VNj-Ll-DPZ" secondAttribute="bottom" constant="8" id="njw-4k-u0i"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imgQuestionImage" destination="VNj-Ll-DPZ" id="erD-oQ-sZ5"/>
+            </connections>
+            <point key="canvasLocation" x="121.73913043478262" y="50.892857142857139"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15510"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="OrganizationTableCell" id="jXm-wy-plB" customClass="OrganizationTableCell" customModule="易安培" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="46"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="jXm-wy-plB" id="xuu-yK-Gc7">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="46"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="zYM-6n-5ac">
+                        <rect key="frame" x="20" y="0.0" width="374" height="48"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="5jh-52-3gD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="zYM-6n-5ac" firstAttribute="top" secondItem="xuu-yK-Gc7" secondAttribute="top" id="8Ps-Ok-tqQ"/>
+                    <constraint firstAttribute="bottom" secondItem="zYM-6n-5ac" secondAttribute="bottom" id="YvD-iC-vOt"/>
+                    <constraint firstAttribute="trailing" secondItem="zYM-6n-5ac" secondAttribute="trailing" constant="20" id="rPm-ZA-FZf"/>
+                    <constraint firstItem="zYM-6n-5ac" firstAttribute="leading" secondItem="xuu-yK-Gc7" secondAttribute="leading" constant="20" id="sNP-HB-e3o"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="labOrganizationName" destination="zYM-6n-5ac" id="Wfa-MB-P3U"/>
+            </connections>
+            <point key="canvasLocation" x="138" y="-69"/>
+        </tableViewCell>
+    </objects>
+</document>

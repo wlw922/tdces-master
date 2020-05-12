@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PrivacyPolicyView" customModule="易安培App" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="N7p-pd-End" customClass="UIControl">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BTj-nD-wGT">
+                    <rect key="frame" x="20" y="92" width="374" height="722"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I3M-du-2Fd">
+                            <rect key="frame" x="10" y="10" width="354" height="702"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <mutableString key="text">隐私协议
+我们一向庄严承诺保护使用户（“用户”或“您”）的隐私。您在使用我们服务时，我们可能会收集和使用您的相关信息。本《隐私政策》适用于我们提供的一切我们服务。当您使用我们任何单项服务时，您同意接受本《隐私政策》以及我们在该单项服务中发出的特定隐私信息类政策条款（下列称“特定条款”）的保护，在此情况下特定条款与本政策条款同时对您产生效力。如您不同意本协议内容，请不要注册为本平台用户且不要使用本平台、资源、网络产品及服务等。您同意本协议并按照本平台的注册程序完成注册后，方可成为本平台用户，购买本平台产品、服务。
+
+一、可能收集的信息
+（一）与个人身份无关的信息：
+当您使用我们服务时，我们可能收集和汇总诸如用户的来源途径、访问顺序等信息，例如记录使用我们服务的每个用户的来源途径、浏览器软件等。
+（二）有关个人身份的信息：
+当您使用我们服务时，我们可能收集和汇总或要求您提供有关个人身份的信息，例如个人身份证明（包括身份证、从业资格证、驾驶证等）；生日、籍贯、性别、电话号码、面部特征；网络身份标识信息（包括系统账号、IP地址、电子邮箱地址及与前述有关的密码、口令、口令保护答案等）；个人财产信息（交易记录、支付方式等）；通讯信息；个人上网记录和日志信息（包括网站浏览记录、软件使用记录、点击记录、操作日志等）；我们收集您的信息主要是为了您和其他用户能够更容易和更满意地使用我们服务。我们的目标是向所有的互联网用户提供安全、有趣及有教益的上网经历。而这些信息有助于我们实现这一目标。
+二、如何收集和使用信息
+（一）我们将通过以下途径收集和获得您的信息：
+1、您提供的信息。例如：（1）您在注册我们服务的帐号或使用我们服务时，向我们提供的信息；（2）您通过我们服务向其他方提供的共享信息，以及您使用我们服务时所储存的信息。
+2、我们获取的您的信息。您在使用我们服务时，我们收集、汇总、记录的信息，例如日志信息、位置信息、设备信息等。
+（二）我们会出于以下目的，收集和使用您的信息：
+1、帮助您完成注册
+为便于我们为您提供服务，您需要提供基本注册信息，例如手机号码、电子邮箱地址等，并创建您的用户名和密码。在部分单项服务中，如果您仅需使用浏览、搜索等基本服务，您不需要注册成为我们用户及提供上述信息。
+2、向您提供商品或服务
+我们所收集和使用的信息是为您提供我们服务的必要条件，如缺少相关信息，我们将无法为您提供我们服务的核心内容，例如：（1）在部分服务项目中，为便于向您交付商品或服务，您需提供收货人个人身份信息、姓名、支付状态等信息。如果您拒绝提供此类信息，我们将无法完成相关交付服务。需确保您已经取得其授权同意。（2）为展示您账户的订单信息，我们会收集您在使用我们服务过程中产生的订单信息用于向您展示及便于您对订单进行管理；（3）当您与我们联系时，我们可能会保存您的通信/通话记录和内容或您留下的联系方式等信息，以便与您联系或帮助您解决问题，或记录相关问题的处理方案及结果。
+三、如何管理您的信息
+（一）访问、更新和删除
+我们鼓励您更新和修改您的信息以使其更准确有效。您能通过我们服务访问您的信息，并根据对应信息的管理方式自行完成或要求我们进行修改、补充和删除。我们将采取适当的技术手段，尽可能保证您可以访问、更新和更正自己的信息或使用我们服务时提供的其他信息。
+在访问、更新、更正和删除前述信息时，我们可能会要求您进行身份验证，以保障信息安全。
+（二）注销
+在符合我们单项服务的服务协议约定条件及国家相关法律法规规定的情况下，您的该项我们服务帐号可能被注销或删除。当帐号注销或被删除后，与该帐号相关的、该单项服务项下的全部服务资料和数据将依照单项服务的服务协议约定删除或处理。
+四、通知和修订
+我们可能适时修改本《隐私政策》的条款，该等修改构成本《隐私政策》的一部分。对于重大变更，我们会提供更显著的通知，您可以选择停止使用我们服务；在该种情况下，如您仍然继续使用我们服务的，即表示同意受经修订的本《隐私政策》的约束。任何修改都会将您的满意度置于首位。我们鼓励您在每次使用我们服务时都查阅我们的隐私政策。我们可能在必需时（例如当我们由于系统维护而暂停某一项服务时）发出与服务有关的公告。您可能无法取消这些与服务有关、性质不属于推广的公告。最后，您必须对您的账号和密码信息负有保密义务。任何情况下，请小心妥善保管。
+五、如何联系我们
+如您有关于网络信息安全的投诉和举报，或您对本《隐私政策》、您的信息的相关事宜有任何问题、意见或建议，以及有关本声明或我们的隐私措施的问题请与我们的协调人联系。
+请联系我们客服   座机：0795-3158873   手机：13367016331</mutableString>
+                            <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="I3M-du-2Fd" secondAttribute="trailing" constant="10" id="6Nb-J8-Dad"/>
+                        <constraint firstItem="I3M-du-2Fd" firstAttribute="leading" secondItem="BTj-nD-wGT" secondAttribute="leading" constant="10" id="BOK-wf-ByX"/>
+                        <constraint firstAttribute="bottom" secondItem="I3M-du-2Fd" secondAttribute="bottom" constant="10" id="IgA-pA-xq6"/>
+                        <constraint firstItem="I3M-du-2Fd" firstAttribute="top" secondItem="BTj-nD-wGT" secondAttribute="top" constant="10" id="RgU-eo-mfX"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.50457512839999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="ql3-ij-MKh" firstAttribute="trailing" secondItem="BTj-nD-wGT" secondAttribute="trailing" constant="20" id="2D0-Rh-doY"/>
+                <constraint firstItem="ql3-ij-MKh" firstAttribute="bottom" secondItem="BTj-nD-wGT" secondAttribute="bottom" constant="48" id="91s-HQ-vuI"/>
+                <constraint firstItem="BTj-nD-wGT" firstAttribute="leading" secondItem="ql3-ij-MKh" secondAttribute="leading" constant="20" id="P5G-u3-u1H"/>
+                <constraint firstItem="BTj-nD-wGT" firstAttribute="top" secondItem="ql3-ij-MKh" secondAttribute="top" constant="48" id="lWb-Sf-Y3o"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ql3-ij-MKh"/>
+            <point key="canvasLocation" x="132" y="105"/>
+        </view>
+    </objects>
+</document>

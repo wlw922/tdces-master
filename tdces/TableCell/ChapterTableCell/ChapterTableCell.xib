@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ChapterTableCell" id="CQG-QA-CvL" customClass="ChapterTableCell" customModule="易安培App" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CQG-QA-CvL" id="dkF-TO-Cpz">
+                <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NGm-fZ-77H">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="64"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XUw-qP-Qu9">
+                                <rect key="frame" x="20" y="0.0" width="8.5" height="64"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZnI-Fe-W4a">
+                                <rect key="frame" x="36.5" y="0.0" width="369.5" height="64"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="64" id="1Ie-5g-bEy"/>
+                            <constraint firstItem="XUw-qP-Qu9" firstAttribute="leading" secondItem="NGm-fZ-77H" secondAttribute="leading" constant="20" id="6Ih-4k-u7I"/>
+                            <constraint firstItem="ZnI-Fe-W4a" firstAttribute="top" secondItem="NGm-fZ-77H" secondAttribute="top" id="Cq4-wA-Sch"/>
+                            <constraint firstAttribute="bottom" secondItem="ZnI-Fe-W4a" secondAttribute="bottom" id="QqY-TS-Wtn"/>
+                            <constraint firstAttribute="bottom" secondItem="XUw-qP-Qu9" secondAttribute="bottom" id="Ue1-em-jEB"/>
+                            <constraint firstItem="ZnI-Fe-W4a" firstAttribute="leading" secondItem="XUw-qP-Qu9" secondAttribute="trailing" constant="8" id="WtL-lb-Uup"/>
+                            <constraint firstAttribute="trailing" secondItem="ZnI-Fe-W4a" secondAttribute="trailing" constant="8" id="djN-X8-wRD"/>
+                            <constraint firstItem="XUw-qP-Qu9" firstAttribute="top" secondItem="NGm-fZ-77H" secondAttribute="top" id="qr7-dX-g2L"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="NGm-fZ-77H" secondAttribute="trailing" id="nGt-oq-oYw"/>
+                    <constraint firstAttribute="bottom" secondItem="NGm-fZ-77H" secondAttribute="bottom" id="vuN-aZ-9aj"/>
+                    <constraint firstItem="NGm-fZ-77H" firstAttribute="top" secondItem="dkF-TO-Cpz" secondAttribute="top" id="x1T-HV-Ci2"/>
+                    <constraint firstItem="NGm-fZ-77H" firstAttribute="leading" secondItem="dkF-TO-Cpz" secondAttribute="leading" id="zqI-7H-smO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="labChapterTitle" destination="ZnI-Fe-W4a" id="zcL-bf-3cS"/>
+                <outlet property="labSerialNumber" destination="XUw-qP-Qu9" id="5QJ-p2-up5"/>
+            </connections>
+            <point key="canvasLocation" x="136" y="-181"/>
+        </tableViewCell>
+    </objects>
+</document>

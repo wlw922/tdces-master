@@ -1,0 +1,11 @@
+{
+"applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appID": "76UE32H273.com.gmcx.tdces",
+                "paths": [ "/.well-known/*" ]
+            }
+        ]
+    }
+}

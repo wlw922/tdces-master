@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="UserAgreementView" customModule="易安培App" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="UIControl">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zV9-Ph-JTu">
+                    <rect key="frame" x="20" y="92" width="374" height="722"/>
+                    <subviews>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ca4-PW-OOi">
+                            <rect key="frame" x="10" y="10" width="354" height="702"/>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            <mutableString key="text">        欢迎您使用本平台学习驾驶员安全教育知识，本平台是由江西华洋信息科技有限公司负责建设、管理和运营。本平台的所有内容、资讯、资源、网络产品及服务，均由本平台建设、管理和经营人享有相应的著作权、经营权及其他所有合法权益。 在您（以下简称用户为“您”）注册为本平台前，请您务必仔细阅读《用户注册服务协议》（以下简称“本协议”）。本协议为您与本平台产品及服务等内容的使用协议，一旦您同意注册，即视为您同意并遵守本协议的全部条款，本协议即对您 和本平台都具有法律约束力。如您不同意本协议内容，请不要注册为本平台会员且不要使用本平台、资源、网络产品及服务等。您同意本协议并按照本平台的注册程序完成注册后，方可成为本平台用户，方可购买本平台产品、服务。
+
+一、用户承诺
+您同意并承诺做到以下几点：
+
+（一）您同意本平台可以永久性地对您上传的内容进行审核、整理、修改、复制、传播；您同意本平台删除您发表的、可能侵害他人姓名权、肖像权、隐私权、著作权或其他合法权益的内容以及其他有害或违规内容，且您保证不重复发表上述内容；您有义务证明您发表的内容没有侵犯任何第三方的任何合法权益。
+
+（二）尊重本平台及网络产品的著作权及其他合法权益，仅以个人学习目的使用本平台、购买本平台的网络产品及接受服务，并保证不用于任何调查、广告或其他商业目的，不用于任何非法目的。
+
+（三）您违背上述承诺之一的，均为严重违约行为，为防止损害扩大，本平台有权自行采取救济行为，包括但不限于删除您的账户信息、禁止您继续使用本平台及网络产品、停止提供服务等，而无需对用户或任何第三方承担任何责任。
+
+（四）您同意本平台仅提供相关的网络服务，除此之外与相关网络服务有关的设备（如个人电脑、手机、及其他与接入互联网或移动网有关的装置）及所需的费用（如为接入互联网而支付的电话费及上网费、为使用移动网而支付的手机费）均应由用户自行负担。
+
+（五）保护用户隐私是本平台的一项基本政策，本平台保证不对外公开或向第三方提供单个用户的注册资料及用户在使用网络服务时存储在本平台的非公开内容，但下列情况除外：事先获得用户的明确授权；根据有关的法律法规要求；按照相关政府主管部门的要求；为维护社会公众的利益；为维护本平台的合法权益。
+
+二、用户的权利和义务
+（一）用户注册时应提供详尽、准确的个人资料并及时更新，以便本平台及时与您取得联系。您注册后应牢记您的账号和密码，您有权随时查询、更改或更新注册信息。在本平台注册后，您的账号可同时应用于本平台论坛。您在论坛中的所有言论和行为同样受到本协议的约束。
+
+（二）注册用户可免费体验本平台提供的部分免费资源、网络产品和服务，但此免费体现仅限于在线浏览，您无权对其转载、链接、下载、复制、修改等。 由于网络在线浏览的及时性和不可控性，请您在购买产品或者服务前务必试用免费资源，待满意后再请购买；一旦您付款购买，将不作退货处理。 您注册后可在选课中心模块选择您要购买的网络产品或者服务，网络产品使用权的有效期为一年。 此购买仅仅是网络产品在线浏览权的购买，网络产品的著作权及其他合法权益仍归原权利人享有。 除本平台特别标明或书面授权许可外，您无权下载、复制、刻录、录屏、传播、发表、出售、出租、编译、反编译网站的任何内容或演绎衍生出其他作品。 否则，本平台有权封存相关用户ID并追究相关法律责任。
+
+（三）本平台及其任何组成部分，包括但不限于网站页面设计、编排方式、技术程序、软件、资源、网络产品、产品或服务名称、文字、视音频、图片、电子书、实验、Logo、商标、标识、著作权等均由本平台所有，均受到著作权法、商标法及其他法律法规的保护。除本平台特别标明或书面授权许可外，任何媒体、网站或个人未经本平台正式书面授权，不得转载、链接、转贴、修改、复制、下载、出售、演绎、反向编译或以其他方式复制、发布或发表上述内容，不得将之用于任何营利或非营利目的，不得以个人学习为名实施任何侵害本平台权益的行为；已经本平台书面授权的媒体、网站或个人在使用时必须注明“视频/图片/文字来源：本平台”，且不得擅自允许他人继续转载或复制，不得出售或用于商业目的。违反上述规定或有其他侵权行为的，本平台权利人保留追究侵权人法律责任的权利。
+
+（四）如您发现本平台其他用户有侵犯您姓名权、肖像权、隐私权、著作权或其他合法权益现象的，请及时与本平台联系并附加相关权利证明文件，以便本平台及时作出处理，维护您的合法权益。
+
+（五）本平台本着严谨负责的态度对网络产品质量精益求精，但不保证无任何错误或瑕疵，且不会因个别错误而退货，请您在购买前务必慎重考虑；如您购买本平台产品及服务的，即视为同意并接受上述观点。
+
+（六）本平台重视用户个人隐私的保护，但您也有义务保证密码和帐号的安全，您应对利用该帐号和密码所进行的活动承担相应法律责任。如您发现帐号遭到未授权的使用或发生其他任何安全问题，应立即修改帐号密码并妥善保管。一个账户只能在一台电脑上唯一性登录，不可由多用户同时登录。账号注册后一年内未登录的，本平台有权删除该账号。
+
+（七）本平台可能会与第三方合作向用户提供相关的网络服务，在此情况下，如该第三方同意承担与本平台同等的保护用户隐私的责任，则本平台有权将用户的注册资料等提供给该第三方。
+
+（八）鉴于网络服务的特殊性，用户同意本平台有权随时变更、中断或终止部分或全部的网络服务（包括收费网络服务）。如变更、中断或终止的网络服务属于免费网络服务，本平台无需通知用户，也无需对任何用户或任何第三方承担任何责任；如变更、中断或终止的网络服务属于收费网络服务，本平台应当在变更、中断或终止之前事先通知用户，并应向受影响的用户提供等值的替代性的收费网络服务，如用户不愿意接受替代性的收费网络服务，就该用户已经向本平台支付的服务费，本平台应当按照该用户实际使用相应收费网络服务的情况扣除相应服务费之后将剩余的服务费退还给该用户。
+
+（九）本平台有权随时修改本协议的任何条款，一旦本协议的内容发生变动，本平台将会直接在本平台网站上公布修改之后的协议内容，该公布行为视为本平台已经通知用户修改内容。本平台也可通过其他适当方式向用户提示修改内容。
+
+（十）本协议项下本平台对于用户所有的通知均可通过网页公告、电子邮件、手机短信或常规的信件传送等方式进行；该等通知于发送之日视为已送达收件人。
+
+（十一）不得以任何形式使用本平台网络服务侵犯本平台的商业利益，包括并不限于发布非经本平台许可的商业广告；不得利用本平台网络服务系统进行任何可能对互联网或移动网正常运转造成不利影响的行为；不得利用本平台提供的网络服务上传、展示或传播任何虚假的、骚扰性的、中伤他人的、辱骂性的、恐吓性的、庸俗淫秽的或其他任何非法的信息资料。
+
+（十二）用户同意遵守《中华人民共和国保守国家秘密法》、《中华人民共和国著作权法》、《中华人民共和国计算机信息系统安全保护条例》、《计算机软件保护条例》、《互联网电子公告服务管理规定》、《信息网络传播权保护条例》等有关计算机及互联网规定的法律、法规、实施办法。在任何情况下，本平台合理地认为用户的行为可能违反上述法律、法规，本平台可以在任何时候，不经事先通知终止向该用户提供服务。
+
+三、免责声明
+（一）由于计算机设备的多样性和复杂性，本平台不保证所提供的视频在每一个Windows系统上运行时不出现任何问题，不担保可以和任何程序同时使用、运行而不发生冲突。如出现上述现象，用户应立即检测相关设备及程序，防止造成任何损失。
+
+（二）因地震、台风、洪水、火灾、战争、政府禁令以及其他不可抗力或互联网黑客攻击事件、用户自身疏忽管理等原因，致使影响网站、网络产品及服务使用的，本平台不承担任何法律责任。
+
+（三）对于本平台所提供的学习内容，我们力求精益求精，但由于能力有限及理解力的不同，可能会存在纰漏之处。如果您使用本平台，表明您己经对我们工作主体部分的认可和宽容我们工作中可能存在的纰漏。
+
+（四）本平台承诺保护注册用户的隐私，但经您授权披露或您自动泄露个人信息而导致自身隐私泄露或账户被窃取的，以及因公安、行政、司法等部门执行公务而必须公布您的信息的，本平台不承担任何法律责任。
+
+（五）为方便您使用，本平台会提供一些第三方网站或资源的链接，除另有声明外，这些链接仅为提供便利，本平台无法对第三方网站服务进行控制，请您浏览时慎重选择。 您的账户为您自行设置并由您保管，本平台任何时候均不会主动要求您提供您的账户。因此，建议您务必保管好您的账户，并确保您在每个上网时段结束时退出登录并以正确步骤离开本平台平台。账户因您主动泄露或遭受他人攻击、诈骗等行为导致的损失及后果，均由您自行承担。
+
+（六）本平台服务可能会提供与其他国际互联网网站或资源进行链接。对于前述网站或资源是否可以利用，本平台承担担保责任。因使用或依赖上述网站或资源所生的损失或损害，本平台也不负担任何责任。
+
+（七）本平台如因系统维护或升级而需暂停服务时，将事先公告。若因硬件故障或其它不可抗力而导致暂停服务，于暂停服务期间造成的一切不便与损失，本平台不承担任何责任。
+
+（八）用户理解，本平台需要定期或不定期地对提供网络服务的平台（如互联网网站、移动网络等）或相关的设备进行检修、维护或者升级，如因此类情况而造成收费网络服务在合理时间内的中断，本平台无需为此承担任何责任，但本平台应尽可能事先进行通告。
+
+（九）用户理解，本平台针对某些特定的本平台网络服务的使用通过各种方式（包括但不限于网页公告、电子邮件、短信提醒等）作出的任何声明、通知、警示等内容视为本协议的一部分，用户如使用该等本平台网络服务，视为用户同意该等声明、通知、警示的内容。
+
+（十）用户明确同意其使用本平台网络服务所存在的风险将完全由其自己承担；因其使用本平台网络服务而产生的一切后果也由其自己承担，本平台对用户不承担任何责任。本平台不担保网络服务一定能满足用户的要求，也不担保网络服务不会中断，对网络服务的及时性、安全性、准确性也都不作担保。
+
+四、法律适用及管辖
+本协议的订立、执行、解释及争议的解决均适用中华人民共和国法律。
+
+通过非本平台法定渠道或方式获取本平台权益的，本平台有权追缴非法所得；造成负面影响的，将保留追究其责任的权利。
+
+因本平台、网络产品或者服务的购买和使用等发生纠纷的，应友好协商解决，协商不成的，交由深圳地区仲裁委员会仲裁。
+
+再次郑重提示：如果您不接受本协议，请不要点击“同意”按钮；一旦您点击“同意”按钮并完成注册的，即视为您同意并遵守本协议所包含的全部条款。</mutableString>
+                            <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                        </textView>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="ca4-PW-OOi" secondAttribute="bottom" constant="10" id="NLm-B7-1qJ"/>
+                        <constraint firstItem="ca4-PW-OOi" firstAttribute="leading" secondItem="zV9-Ph-JTu" secondAttribute="leading" constant="10" id="VVQ-Vf-ZWa"/>
+                        <constraint firstAttribute="trailing" secondItem="ca4-PW-OOi" secondAttribute="trailing" constant="10" id="o8y-x9-Poq"/>
+                        <constraint firstItem="ca4-PW-OOi" firstAttribute="top" secondItem="zV9-Ph-JTu" secondAttribute="top" constant="10" id="rK4-OA-oiT"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.50457512842465757" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="zV9-Ph-JTu" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="9ll-T3-uuB"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="zV9-Ph-JTu" secondAttribute="bottom" constant="48" id="E6x-QT-abA"/>
+                <constraint firstItem="zV9-Ph-JTu" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="48" id="P7y-5W-2Az"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="zV9-Ph-JTu" secondAttribute="trailing" constant="20" id="xmc-1Q-H31"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <action selector="btnDismissAction:" destination="-1" eventType="touchUpInside" id="nCe-8b-4wy"/>
+            </connections>
+            <point key="canvasLocation" x="132" y="105"/>
+        </view>
+    </objects>
+</document>
