@@ -24,7 +24,15 @@ class ExamContentBean: BaseBean {
         super.init(json: json)
         sn = json["sn"].int
         quesType = json["quesType"].int //0单选 1多选 2判断 3简答
-        fileUrl = json["fileUrl"].string
+        if (json["fileUrl"].string != nil)
+        {
+             fileUrl = json["fileUrl"].string
+        }
+        else
+        {
+            fileUrl = ""
+        }
+       
         if (quesType == 3)
         {
             let userAnswerStr = json["userAnswer"].string

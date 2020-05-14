@@ -3,4 +3,565 @@
    uuid = "9AF0890D-9898-4ED9-96C6-84F1B717213D"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B7F4299-D2BE-4A77-8BF6-0AB2F306713A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/ViewController/ExamModule/PaperViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7258C401-194B-425C-B510-A69765E6F740"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/ViewController/ExamModule/PaperViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7258C401-194B-425C-B510-A69765E6F740 - b3664a82f4e4eb11"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #2 (&#x6613;&#x5b89;&#x57f9;App.ResponseBean) -&gt; () in &#x6613;&#x5b89;&#x57f9;App.PaperViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "&#x6613;&#x5b89;&#x57f9;App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/tdces-master/tdces/ViewController/ExamModule/PaperViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "94">
+               </Location>
+               <Location
+                  uuid = "7258C401-194B-425C-B510-A69765E6F740 - 8f5c68ca7b2be25b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #2 () -&gt; () in closure #2 (&#x6613;&#x5b89;&#x57f9;App.ResponseBean) -&gt; () in &#x6613;&#x5b89;&#x57f9;App.PaperViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "&#x6613;&#x5b89;&#x57f9;App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/tdces-master/tdces/ViewController/ExamModule/PaperViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67CE34A9-D7B8-4509-90BC-1CF876A43CAA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/ViewController/ExamModule/PaperViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "388"
+            endingLineNumber = "388"
+            landmarkName = "previousQuestion()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4805F84-3AA9-4EBC-AAFA-1FBC18B42F54"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/ViewController/ExamModule/PaperViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "543"
+            endingLineNumber = "543"
+            landmarkName = "getNotification(noti:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A4805F84-3AA9-4EBC-AAFA-1FBC18B42F54 - 1609d8ae2bbcb251"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; () in closure #13 (&#x6613;&#x5b89;&#x57f9;App.ResponseBean) -&gt; () in &#x6613;&#x5b89;&#x57f9;App.PaperViewController.getNotification(noti: Foundation.Notification) -&gt; ()"
+                  moduleName = "&#x6613;&#x5b89;&#x57f9;App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/tdces-master/tdces/ViewController/ExamModule/PaperViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "546"
+                  endingLineNumber = "546"
+                  offsetFromSymbolStart = "94">
+               </Location>
+               <Location
+                  uuid = "A4805F84-3AA9-4EBC-AAFA-1FBC18B42F54 - 615e24b43dd06c1c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #2 () -&gt; () in closure #13 (&#x6613;&#x5b89;&#x57f9;App.ResponseBean) -&gt; () in &#x6613;&#x5b89;&#x57f9;App.PaperViewController.getNotification(noti: Foundation.Notification) -&gt; ()"
+                  moduleName = "&#x6613;&#x5b89;&#x57f9;App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/tdces-master/tdces/ViewController/ExamModule/PaperViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "424"
+                  endingLineNumber = "424"
+                  offsetFromSymbolStart = "46">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBC58F0C-B19B-4562-8C68-BB3D893880E9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/Biz/SystemBiz.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "returnUnifiedorder(url:param:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9AB25429-935F-484E-AF63-EDF2BC615E59"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/Biz/SystemBiz.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "returnUnifiedorder(url:param:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FCA30712-CCB6-4F6C-8154-382569D959E2"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/Biz/SystemBiz.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
+            landmarkName = "uploadImage(url:param:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32A115A1-A81E-418A-A445-B6985CEEBB34"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/Biz/SystemBiz.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "uploadImage(url:param:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AE20AAB6-423E-411C-A514-22CD7DAF520D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/Biz/SystemBiz.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "186"
+            endingLineNumber = "186"
+            landmarkName = "sendPost(url:methodName:param:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "94F70BB8-B533-47C5-A8D7-E1FC78CFF93A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/Biz/SystemBiz.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "195"
+            endingLineNumber = "195"
+            landmarkName = "sendPost(url:methodName:param:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7F53D5D3-5102-4F71-81D3-2BD472120117"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/ViewController/ExamModule/PaperViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "533"
+            endingLineNumber = "533"
+            landmarkName = "getNotification(noti:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7F53D5D3-5102-4F71-81D3-2BD472120117 - 25461528312be9ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x6613;&#x5b89;&#x57f9;App.PaperViewController.getNotification(noti: Foundation.Notification) -&gt; ()"
+                  moduleName = "&#x6613;&#x5b89;&#x57f9;App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/tdces-master/tdces/ViewController/ExamModule/PaperViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "536"
+                  endingLineNumber = "536"
+                  offsetFromSymbolStart = "14907">
+               </Location>
+               <Location
+                  uuid = "7F53D5D3-5102-4F71-81D3-2BD472120117 - 66e87fe27c7072e1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #13 (&#x6613;&#x5b89;&#x57f9;App.ResponseBean) -&gt; () in &#x6613;&#x5b89;&#x57f9;App.PaperViewController.getNotification(noti: Foundation.Notification) -&gt; ()"
+                  moduleName = "&#x6613;&#x5b89;&#x57f9;App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/tdces-master/tdces/ViewController/ExamModule/PaperViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "424"
+                  endingLineNumber = "424"
+                  offsetFromSymbolStart = "179">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3C15BC31-0B93-49AE-B142-8E2A7D036C1A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/ViewController/ExamModule/PaperViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "550"
+            endingLineNumber = "550"
+            landmarkName = "getNotification(noti:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "3C15BC31-0B93-49AE-B142-8E2A7D036C1A - 25461528312be9ec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x6613;&#x5b89;&#x57f9;App.PaperViewController.getNotification(noti: Foundation.Notification) -&gt; ()"
+                  moduleName = "&#x6613;&#x5b89;&#x57f9;App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/tdces-master/tdces/ViewController/ExamModule/PaperViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "553"
+                  endingLineNumber = "553"
+                  offsetFromSymbolStart = "15635">
+               </Location>
+               <Location
+                  uuid = "3C15BC31-0B93-49AE-B142-8E2A7D036C1A - 543577cc586e1fe2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #14 (&#x6613;&#x5b89;&#x57f9;App.ResponseBean) -&gt; () in &#x6613;&#x5b89;&#x57f9;App.PaperViewController.getNotification(noti: Foundation.Notification) -&gt; ()"
+                  moduleName = "&#x6613;&#x5b89;&#x57f9;App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/tdces-master/tdces/ViewController/ExamModule/PaperViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "424"
+                  endingLineNumber = "424"
+                  offsetFromSymbolStart = "107">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "132070A0-8018-48E7-9A17-2ADE8E2E26B3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/ViewController/ExamModule/PaperViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "132070A0-8018-48E7-9A17-2ADE8E2E26B3 - 4bc6f093ddfa97b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x6613;&#x5b89;&#x57f9;App.PaperViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "&#x6613;&#x5b89;&#x57f9;App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/tdces-master/tdces/ViewController/ExamModule/PaperViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "7599">
+               </Location>
+               <Location
+                  uuid = "132070A0-8018-48E7-9A17-2ADE8E2E26B3 - 4bc6f093ddfa97b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x6613;&#x5b89;&#x57f9;App.PaperViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "&#x6613;&#x5b89;&#x57f9;App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/tdces-master/tdces/ViewController/ExamModule/PaperViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "91"
+                  endingLineNumber = "91"
+                  offsetFromSymbolStart = "9096">
+               </Location>
+               <Location
+                  uuid = "132070A0-8018-48E7-9A17-2ADE8E2E26B3 - ef9afcaf54eecd79"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (&#x6613;&#x5b89;&#x57f9;App.ResponseBean) -&gt; () in &#x6613;&#x5b89;&#x57f9;App.PaperViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "&#x6613;&#x5b89;&#x57f9;App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/tdces-master/tdces/ViewController/ExamModule/PaperViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "78"
+                  endingLineNumber = "78"
+                  offsetFromSymbolStart = "238">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DCC5263-5AAC-499A-9463-1E82DF23BFDA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/ViewController/ExamModule/PaperViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "737A59E9-3495-4F77-B550-C790C38D48F8"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/CustomView/ScoreReportingView/ScoreReportingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "354"
+            endingLineNumber = "354"
+            landmarkName = "setView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "737A59E9-3495-4F77-B550-C790C38D48F8 - d0b32acaf8745e3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x6613;&#x5b89;&#x57f9;App.ScoreReportingView.setView() -&gt; ()"
+                  moduleName = "&#x6613;&#x5b89;&#x57f9;App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/tdces-master/tdces/CustomView/ScoreReportingView/ScoreReportingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "354"
+                  endingLineNumber = "354"
+                  offsetFromSymbolStart = "31094">
+               </Location>
+               <Location
+                  uuid = "737A59E9-3495-4F77-B550-C790C38D48F8 - 18b7f8ada1479974"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #8 (&#x6613;&#x5b89;&#x57f9;App.ResponseBean) -&gt; () in &#x6613;&#x5b89;&#x57f9;App.ScoreReportingView.setView() -&gt; ()"
+                  moduleName = "&#x6613;&#x5b89;&#x57f9;App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/tdces-master/tdces/CustomView/ScoreReportingView/ScoreReportingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "143">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F832FA84-3E29-41C7-881A-2576320007B9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/Biz/TrainBiz.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "194"
+            endingLineNumber = "194"
+            landmarkName = "saveExam(id:areaId:password:startTime:endTime:paperId:quesNumber:rightNumber:score:regId:orgId:result:loginId:examContent:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F832FA84-3E29-41C7-881A-2576320007B9 - a0bf2fdd51c72727"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x6613;&#x5b89;&#x57f9;App.TrainBiz.saveExam(id: Swift.String, areaId: Swift.String, password: Swift.String, startTime: Swift.String, endTime: Swift.String, paperId: Swift.String, quesNumber: Swift.String, rightNumber: Swift.String, score: Swift.String, regId: Swift.String, orgId: Swift.String, result: Swift.String, loginId: Swift.String, examContent: Swift.String, completion: (&#x6613;&#x5b89;&#x57f9;App.ResponseBean) -&gt; ()) -&gt; ()"
+                  moduleName = "&#x6613;&#x5b89;&#x57f9;App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/tdces-master/tdces/Biz/TrainBiz.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "194"
+                  endingLineNumber = "194"
+                  offsetFromSymbolStart = "2258">
+               </Location>
+               <Location
+                  uuid = "F832FA84-3E29-41C7-881A-2576320007B9 - 6ab8e1e3c01999e9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (&#x6613;&#x5b89;&#x57f9;App.ResponseBean) -&gt; () in &#x6613;&#x5b89;&#x57f9;App.TrainBiz.saveExam(id: Swift.String, areaId: Swift.String, password: Swift.String, startTime: Swift.String, endTime: Swift.String, paperId: Swift.String, quesNumber: Swift.String, rightNumber: Swift.String, score: Swift.String, regId: Swift.String, orgId: Swift.String, result: Swift.String, loginId: Swift.String, examContent: Swift.String, completion: (&#x6613;&#x5b89;&#x57f9;App.ResponseBean) -&gt; ()) -&gt; ()"
+                  moduleName = "&#x6613;&#x5b89;&#x57f9;App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/tdces-master/tdces/Biz/TrainBiz.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "196"
+                  endingLineNumber = "196"
+                  offsetFromSymbolStart = "49">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DA5DDDE4-5223-4565-B57A-BB0247845EE6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/CustomView/ScoreReportingView/ScoreReportingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "353"
+            endingLineNumber = "353"
+            landmarkName = "setView()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DA5DDDE4-5223-4565-B57A-BB0247845EE6 - d0b32acaf8745e3b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "&#x6613;&#x5b89;&#x57f9;App.ScoreReportingView.setView() -&gt; ()"
+                  moduleName = "&#x6613;&#x5b89;&#x57f9;App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/tdces-master/tdces/CustomView/ScoreReportingView/ScoreReportingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "354"
+                  endingLineNumber = "354"
+                  offsetFromSymbolStart = "31094">
+               </Location>
+               <Location
+                  uuid = "DA5DDDE4-5223-4565-B57A-BB0247845EE6 - 18b7f8ada1479974"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #8 (&#x6613;&#x5b89;&#x57f9;App.ResponseBean) -&gt; () in &#x6613;&#x5b89;&#x57f9;App.ScoreReportingView.setView() -&gt; ()"
+                  moduleName = "&#x6613;&#x5b89;&#x57f9;App"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/tdces-master/tdces/CustomView/ScoreReportingView/ScoreReportingView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "86"
+                  endingLineNumber = "86"
+                  offsetFromSymbolStart = "143">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68CBEE90-4D7B-4EE4-A82B-2AE9104CB70E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "tdces/CustomView/ScoreReportingView/ScoreReportingView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "356"
+            endingLineNumber = "356"
+            landmarkName = "setView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

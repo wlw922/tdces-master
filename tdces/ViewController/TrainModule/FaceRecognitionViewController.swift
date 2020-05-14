@@ -42,8 +42,7 @@ class FaceRecognitionViewController: UIViewController {
     func openSettings() {
         let settingsURL:NSURL = NSURL(string:UIApplication.openSettingsURLString)!
         UIApplication.shared.open(settingsURL as URL, options: [UIApplication.OpenExternalURLOptionsKey : Any].init(), completionHandler: nil)
-        
-        
+   
     }
     
     /**

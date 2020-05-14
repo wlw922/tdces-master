@@ -68,6 +68,7 @@ class PaperViewController:UIViewController{
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+    
         initTableCell()
         initNotification()
         LogUtil.sharedInstance.printLog(message: "PaperViewController viewDidLoad")
@@ -432,7 +433,7 @@ extension PaperViewController{
 //            DispatchQueue.main.async {
 //                weakSelf!.dismiss(animated: true, completion: nil)
 //            }
-//            break
+            break
         case NotifyAnswerChange:
             guard let questionDetail = noti.object as? QuestionDetailBean else{
                 return

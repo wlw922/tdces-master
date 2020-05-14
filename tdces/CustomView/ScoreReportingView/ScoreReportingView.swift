@@ -321,7 +321,7 @@ class ScoreReportingView: UIView {
         labFaultCount.text = String(describing: FaultCount)
         
         //总成绩展示
-        labScore.text = String(describing: Score)
+        labScore.text = String(describing: lroundf(Score))
       
 
         
@@ -346,14 +346,19 @@ class ScoreReportingView: UIView {
         let orgId:String=String( (self.train?.org?.id)!)
         let password:String=UserDefaults.LoginInfo.string(forKey: .password)!
         let loginId:String=(staff?.user!.loginId)!
-        TrainBiz.sharedInstance.saveExam(id: examId!, areaId:areaId, password: password, startTime: startTime, endTime: endTime, paperId: paperId, quesNumber: String(describing: TopicCount), rightNumber: String(describing: CorrectCount), score: String(describing: Score), regId: regId, orgId: orgId, result: isPass, loginId: loginId, examContent: examList.description) { (responseBean) in
+        print("原分数 = \(Score)")
+        let  lroundfaa = lroundf(Score)
+        print("lroundfaa = \(lroundfaa)")
+   
+       
+        TrainBiz.sharedInstance.saveExam(id: examId!, areaId:areaId, password: password, startTime: startTime, endTime: endTime, paperId: paperId, quesNumber: String(describing: TopicCount), rightNumber: String(describing: CorrectCount), score: String(describing: lroundfaa), regId: regId, orgId: orgId, result: isPass, loginId: loginId, examContent: examList.description) { (responseBean) in
             DispatchQueue.main.async {
                 weakSelf!.btnAction.isEnabled=true
             }
 
         }
     }
-    
+   
     //设置好xib视图约束
     func addConstraints() {
         contentView.translatesAutoresizingMaskIntoConstraints = false
@@ -384,3 +389,10 @@ class ScoreReportingView: UIView {
         //            }
     }
 }
+
+extension Float {
+       public func roundTo(places: Int) -> Double {
+           let divisor = pow(10.0, Float(places))
+        return Double((self * divisor).rounded() / divisor)
+       }
+   }
