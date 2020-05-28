@@ -103,6 +103,7 @@ class HomeViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        print("test GitHub")
         btnGoExam.isEnabled = true
         btnGoEntry.isEnabled = true
         btnGoTrain .isEnabled = true

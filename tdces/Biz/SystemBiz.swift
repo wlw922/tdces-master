@@ -149,7 +149,7 @@ class SystemBiz {
         NetManager.sharedInstance.sendPost(url:url,methodName: methodName, param: param) { (response) in
             do{
                 let responseBean:ResponseBean = ResponseBean()
-                print("response.statusCode = \(response.statusCode)")
+     
                 switch (response.statusCode){
                 case 200:
                     let json:JSON = try JSON.init(data: response.data)

@@ -1536,7 +1536,7 @@
 				CODE_SIGN_ENTITLEMENTS = "tdces/驾驶员安全教育培训.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 20;
+				CURRENT_PROJECT_VERSION = 21;
 				DEVELOPMENT_TEAM = 76UE32H273;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = tdces/Info.plist;
@@ -1545,7 +1545,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.9;
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-all_load",
@@ -1646,7 +1646,7 @@
 				CODE_SIGN_ENTITLEMENTS = "tdces/驾驶员安全教育培训.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 20;
+				CURRENT_PROJECT_VERSION = 21;
 				DEVELOPMENT_TEAM = 76UE32H273;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = tdces/Info.plist;
@@ -1655,7 +1655,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.9;
+				MARKETING_VERSION = 2.0;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",

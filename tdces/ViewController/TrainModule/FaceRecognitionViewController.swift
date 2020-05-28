@@ -47,6 +47,7 @@ class FaceRecognitionViewController: UIViewController {
     
     /**
      Check video authorization status
+     检查视频授权状态
      */
     func checkVideoAuth() {
         weak var weakSelf=self

@@ -169,6 +169,7 @@ class CXMediaViewController: UIViewController {
         //        let url = NSURL(fileURLWithPath: "http://383-cn-north-4.cdn-vod.huaweicloud.com/asset/631b36180bc479215a7373166e6f3f3d/play_video/67b87fdf8d20abaa477b09723176584b_2.m3u8")
         let urlString:String = (material?.medium?.first!.url)!
         let url = URL.init(string: urlString)
+        print("播放视频URL：\(String(describing: url))")
         //播放网络视频
         // let url = NSURL(string: path)!
         playerItem = AVPlayerItem(url: url! )

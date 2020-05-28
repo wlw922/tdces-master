@@ -85,6 +85,9 @@ extension PaperHistroyViewController:UITableViewDataSource,UITableViewDelegate{
             return (weakSelf!.transcriptList?.count)!
         }
         else{
+            DispatchQueue.main.async {
+                    AlertUtil.sharedInstance.showWarningAutoDismissDialog(message: "没有数据")
+            }
             return 0
         }
         
@@ -113,12 +116,17 @@ extension PaperHistroyViewController:UITableViewDataSource,UITableViewDelegate{
     }
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+     
         let cellIdentifier : String = "ScoreTableCell"
         let cell=tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! ScoreTableCell
         let row=indexPath.row
-        let transcriptBean : TranscriptBean = transcriptList![row]
         
-        cell.setupWithBean(transcriptBean: transcriptBean)
+        let transcriptBean : TranscriptBean = transcriptList![row]
+       
+          cell.setupWithBean(transcriptBean: transcriptBean)
+      
+
+        
         return cell
     }
     

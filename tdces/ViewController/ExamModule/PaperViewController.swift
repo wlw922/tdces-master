@@ -225,6 +225,7 @@ class PaperViewController:UIViewController{
             questionAnswerlast.answer = question.answerList?.last
             questionAnswerlast.answer?.content = "错误"
             weakSelf!.questionDetailList.append(questionAnswerlast)
+            
         }else if(question.quesType == 3){//简答题
             let shortAnswerQuestion:QuestionDetailBean = QuestionDetailBean()
             shortAnswerQuestion.id = question.id!
